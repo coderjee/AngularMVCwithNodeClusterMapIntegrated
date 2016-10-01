@@ -1,7 +1,6 @@
 'use strict()';
 
-/* Services */
-// login service is use to connect with api to authenticate user/admin
+// Auto suggest service
 almostEverythingServices.service('autoSuggestServices',
 	['$resource',
 		function ($resource) {
@@ -13,6 +12,7 @@ almostEverythingServices.service('autoSuggestServices',
 			);
 		}]
 );
+//Place detail service
 almostEverythingServices.service('placeDetail',
 	['$resource',
 		function ($resource) {
@@ -24,6 +24,7 @@ almostEverythingServices.service('placeDetail',
 			);
 		}]
 );
+// for all services 
 almostEverythingServices.service('mapService',
 	['$resource',
 		function ($resource) {
