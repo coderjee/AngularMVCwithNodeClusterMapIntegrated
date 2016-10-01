@@ -4,7 +4,7 @@
 
 </nav>
 <div class="panel panel-default panel-body" style="padding:0" ng-init="hideSugg = true">
-    <div class="col-sm-6 " style="min-height:500px;widht:100%;padding:20px;z-index:9999" >
+    <!--<div class="col-sm-6 " style="min-height:500px;widht:100%;padding:20px;z-index:9999" >
         <div ng-show="hideSugg">
             <span class="input-group" style="min-height:40px" ng-repeat="s in suggestion" ng-click="placeDetail(s.place_id)">
            {{s.addr}}
@@ -14,8 +14,9 @@
             Street: {{searchedResult.street}} <br> Locality : {{searchedResult.locality}}
             <br> District : {{searchedResult.district}} <br> State: {{searchedResult.state}}
         </p>
+    </div>-->
+    <div id="map"  style="min-height:500px;padding:0;widht:100%">
     </div>
-    <div id="map" class="col-sm-6" style="min-height:500px;padding:0;widht:100%">
-    </div>
+    
 </div>
 <span class="pull-right"></span>

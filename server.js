@@ -21,6 +21,7 @@ if (cluster.isMaster) {
         console.log('Starting a new worker');
         cluster.fork();
     });
+     startServer();
 } else {
     // Workers can share any TCP connection
     // In this case it is an HTTP server
@@ -32,5 +33,3 @@ function startServer() {
         console.log('HTTP server listening on port ' + 5000);
     });
 }
-
-startServer();
