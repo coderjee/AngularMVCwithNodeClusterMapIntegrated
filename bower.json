@@ -1,0 +1,26 @@
+{
+  "name": "AngularMVCMapDemo",
+  "description": "AngularMVCMapDemo",
+  "main": "index.js",
+  "authors": [
+    "developer.shubhamverma@gmail.com"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-animate": "~1.5.6",
+    "angular-bootstrap": "~1.3.3",
+    "angular-resource": "~1.5.6",
+    "angular-route": "~1.5.6",
+    "angular-sanitize": ">=1.2.15 <1.6",
+    "font-awesome": "~4.6.3",
+    "bootstrap": "~3.3.6"
+  }
+}

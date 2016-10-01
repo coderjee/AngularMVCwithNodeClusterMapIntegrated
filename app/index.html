@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="AlmostEverything" >
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AlmostEverything</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="app.css"/>
+</head>
+
+<body ng-controller="IndexCtrl" class="col-sm-12">
+    <div  ng-view>
+    </div>
+
+    <!--load libraries scripts file-->
+    <script type="text/javascript" src="angular/angular.min.js"></script>
+    <script type="text/javascript" src="angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="angular-resource/angular-resource.min.js"></script>
+    <script type="text/javascript" src="angular-animate/angular-animate.min.js"></script>
+    <script type="text/javascript" src="angular-bootstrap/ui-bootstrap.min.js"></script>
+    <script type="text/javascript" src="angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+    <script type="text/javascript" src="https://apis.mapmyindia.com/advancedmaps/v1/fsj6ddlbm7qllhm6fe1da5lcjccfdigj/map_load?v=01."></script>
+                
+    <script type="text/javascript" src="config/config.js"></script>
+    <script type="text/javascript" src="ApiRoutesListing.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="services/map-service.js"></script>
+
+    <!--load controllers scripts file-->
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="home/home.js"></script>
+
+</body>
+
+</html>
